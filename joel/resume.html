@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<title>Resume</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/casualwriter/casual-markdown/dist/casual-markdown.css">
+<script src="https://cdn.jsdelivr.net/gh/casualwriter/casual-markdown/dist/casual-markdown.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  
+  body { 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6; 
+    margin: auto; 
+    padding: 24px; 
+    max-width: 900px; 
+    display: none; 
+    color: #2c3e50;
+    background: #f8f9fa;
+  }
+  
+  h1 { 
+    font-size: 2.3em; 
+    padding: 18px 0 10px 0; 
+    margin: 0 0 2px 0;
+    border: none;
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: #2c3e50;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+  
+  h2 { 
+    font-size: 1.15em;
+    border-bottom: 2px solid #3498db; 
+    border-left: 4px solid #3498db;
+    padding: 10px 0 6px 8px;
+    margin: 18px 0 10px 0;
+    color: #2c3e50;
+    font-weight: 600;
+  }
+  
+  h3 {
+    font-size: 1.05em;
+    margin: 10px 0 4px 0;
+    color: #2c3e50;
+    font-weight: 600;
+  }
+  
+  h4 {
+    font-size: 0.95em;
+    margin: 8px 0 2px 0;
+    color: #3498db;
+    font-weight: 600;
+  }
+  
+  p { margin: 8px 0; }
+  
+  ul, ol {
+    margin: 8px 0;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin: 6px 0;
+  }
+  
+  strong { 
+    color: #2c3e50;
+    font-weight: 600;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ecf0f1;
+    margin: 16px 0;
+  }
+  
+  @media print {
+    body { background: white; }
+    h1 { 
+      background: none;
+      -webkit-text-fill-color: unset;
+      color: #2c3e50;
+      border-bottom: 3px solid #2c3e50;
+    }
+  }
+</style>
+<body onload="document.body.innerHTML=md.html(document.body.innerHTML); document.body.style.display='block';">
+<!--======= COPY ABOVE CODE AS HEADER, THEN FOLLOW WITH RESUME CONTENT IN MARKDOWN FORMAT =========-->
+
+<span style="display: block; text-align: right; padding: 6px 0; color: #7f8c8d; font-size: 0.95em; margin-bottom: 12px;"> 
+  resume@jmthibault.anonaddy.com <br> 617-871-9697
+</span>
+
+# **Joel Thibault**
+
+Melrose, MA  
+Senior / Principal Software Engineer
+
+---
+
+## **Professional Summary**
+
+Senior/Principal Software Engineer with 20+ years of experience building systems in regulated, data-intensive environments,
+with a focus on scientific and healthcare workflows.
+
+Specializes in turning ambiguous, user- and business-facing problems into well-scoped, high-impact systems, aligning stakeholders
+early to reduce rework and ensure meaningful outcomes.
+
+Proven track record of owning solutions end-to-end in product-oriented, growth-stage environments, delivering systems that directly
+support user needs and business goals.
+
+---
+
+# **Professional Experience**
+
+## **GSK**
+
+**Senior Data Ops Engineer & Engineering Team Lead**  
+June 2025 – Present
+
+Onyx: GCP-based internal platform supporting scientific research and cross-organization data collaboration in a regulated environment.
+
+**Key Contributions**
+
+* Defined and operationalized workflows for secure data sharing between internal research teams and 50+ external partners, clarifying ownership boundaries across a multi-team ecosystem.
+
+* Identified systemic issues through analysis of real usage patterns, uncovering and validating a cross-team logic defect within two months of joining and driving resolution.
+
+* Leading development of a **Feature Intake & Discovery process** to prioritize high-impact work and reduce unplanned effort.
+
+* Established an **Exception Log** to surface operational friction and quantify usage patterns, informing roadmap and product decisions.
+
+* Act as a technical bridge between scientific users, platform teams, and compliance stakeholders to balance usability, auditability, and delivery speed.
+
+* Guide design and implementation of secure data access patterns for regulated research workflows spanning organizational boundaries.
+
+**Technologies:** Google Cloud Platform (GCP), Terraform, GitHub Actions, Python
+
+---
+
+## **Broad Institute**
+
+**Senior Software Engineer**  
+2012 – 2025
+
+Worked across a connected ecosystem of genomics analysis tools and cloud-based research platforms, supporting scientific workflows from core analysis through
+large-scale, regulated collaborative environments handling genomic and EHR data.
+
+Specialized in making complex research workflows understandable, reliable, and safe for real-world use by translating domain needs, data governance requirements,
+and regulatory constraints into practical system behavior.
+
+**Key Contributions**
+
+* Defined and improved scientific workflows across multiple platforms, supporting genomic analysis and collaborative research at scale
+
+* Translated policy and data governance requirements into enforceable system behavior, including permissions, data visibility, and collaboration models
+
+* Identified mismatches between platform behavior and researcher expectations early, preventing costly rework
+
+* Improved reliability and predictability of researcher workflows without exposing underlying system complexity
+
+* Coordinated cross-team changes affecting access control and data handling across interconnected systems
+
+### **Representative Systems**
+
+**All of Us Researcher Workbench** – Secure collaborative research workspace for controlled-access genomic and EHR data  
+ Implemented governed access patterns for a secure research platform supporting 400K+ participants, 245K+ genomes, and 1B+ variants
+
+**Terra Platform** – Global cloud research platform used by internal and external researchers  
+ Contributed to a global cloud research platform used by 65K+ users across 50 countries, enabling analysis of 80PB+ biomedical datasets and 30M+ workflows
+ 
+**GenomeBridge** – Early cloud research platform (precursor to Terra)  
+ Deployed and operated cloud-hosted genomics analysis pipelines, automated provisioning of analysis environments, and improved developer workflows
+
+**GATK Toolkit** – Widely used genomic analysis application  
+ Built and maintained core functionality ufor a widely adopted genomic analysis toolkit used by tens of thousands of researchers worldwide
+
+### Technologies: Java, Python, Scala, TypeScript, React, Spring, Google Cloud Platform (GCP), AWS, SQL, Docker
+
+---
+
+## **Bracebridge Capital**
+
+**Software Engineer – Financial Research**  
+2007 – 2012
+
+Owned acquisition, validation, transformation, and storage of trading data used in daily investment decisions at a $5B hedge fund.
+
+**Key Contributions**
+
+* Built and maintained market data ingestion pipelines integrating Bloomberg and other vendor sources.
+
+* Refactored fragile extraction scripts to separate acquisition, transformation, and loading stages, improving recoverability and simplifying failure handling.
+
+* Implemented validation and reconciliation checks to detect vendor data inconsistencies before they affected trading or reporting systems.
+
+* Developed internal reporting tools translating complex financial instrument data into actionable views for traders and analysts.
+
+* Owned daily production data processing workflows, diagnosing and resolving vendor data anomalies and financial calendar edge cases in time-sensitive trading environments.
+
+**Technologies:** C\#, .NET, PostgreSQL, Perl, Excel Interop, Bloomberg
+
+---
+
+## **General Dynamics C4 Systems**
+
+**Software Configuration Management Lead / Software Engineer II**  
+2001 – 2007
+
+Worked on mission-critical network encryption systems in a CMMI Level 5 development environment.
+
+**Key Contributions**
+
+* Coordinated system releases for secure communications devices.
+
+* Ensured compliance with QA and security certification standards.
+
+* Supported highly regulated development processes for defense systems.
+
+**Technologies:** C, Unix, Perl, Java, ClearCase
+
+---
+
+# **Education**
+
+**Worcester Polytechnic Institute**
+
+**MS, Computer Science (Information Security) \-** 2005
+
+**BS, Computer Science (High Distinction) \-** 2001
+
